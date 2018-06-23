@@ -29,6 +29,7 @@ export class DetailProfileComponent implements OnInit {
     }
 
     goToProfile(){
+        console.log(this.post.owner);
         const url = '/home/profile/' + this.post.owner._id;
         this.router.navigate([url]);
     }
