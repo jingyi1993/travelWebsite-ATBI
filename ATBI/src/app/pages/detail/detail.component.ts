@@ -36,7 +36,7 @@ export class DetailComponent implements OnInit {
                     //get result from server and give the value to post
                     this.post = response.result;
                     this.currentUser = this.authService.getCurrentUser();
-                    console.log(this.post);
+                    // console.log(this.post);
                 }
             }
         );
